@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 100;
+  font-family: "Comic Neue", cursive;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.bg-image-1,
+.bg-image-2,
+.bg-image-3,
+.bg-image-4 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-image-1 {
+  background-image: url(./img/bg.jpg);
+  opacity: 0.7;
+}
+
+.bg-container-1 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 500px;
+  color: white;
+  letter-spacing: 0.5rem;
+}
+
+.header-title-1 {
+  color: white;
+  padding: 25px;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  background-color: black;
+  outline: 0.5rem inset purple;
+  outline-offset: 1rem;
+}
+
+.section-bg-1 {
+  background-color: rgb(241, 241, 241);
+  color: #666;
+  font-size: 20px;
+  text-align: center;
+  padding: 48px 80px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+
+.bg-image-2 {
+  background-image: url(./img/bg2.jpg);
+  min-height: 100vh;
+}
+
+.bg-container-2 {
+  text-align: center;
+}
+
+.section-bg-2 {
+  background-color: #282e34;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 48px 80px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+
+.bg-image-3 {
+  background-image: url(./img/bg3.jpg);
+  min-height: 100vh;
+}
+
+.bg-container-3 {
+  text-align: center;
+}
+
+.logo {
+  width: 30%;
+  margin: 1rem;
+}
+
+.img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.section-bg-3 {
+  background-color: rgb(241, 241, 241);
+  color: #666;
+  font-size: 20px;
+  text-align: center;
+  padding: 48px 80px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+
+.bg-container-3 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 500px;
+  color: white;
+  letter-spacing: 0.5rem;
+}
+
+.header-title-3 {
+  color: white;
+  padding: 25px;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  background-color: black;
+  outline: 0.5rem inset purple;
+  outline-offset: 1rem;
+}
+
+.section-bg-4 {
+  background-color: #282e34;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 48px 80px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+
+.header-title-4 {
+  color: white;
+  padding: 25px;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  background-color: black;
+  outline: 0.5rem inset purple;
+  outline-offset: 1rem;
+}
+
+.bg-image-4 {
+  background-image: url(./img/bg4.jpg);
+}
+
+.bg-container-4 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 500px;
+  color: white;
+  letter-spacing: 0.5rem;
+}
